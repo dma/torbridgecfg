@@ -283,7 +283,7 @@ func main() {
 		log.Fatal("Unable to create new notebook:", err)
 	}
 
-	nbLabel, err := gtk.LabelNew("TOR Setup")
+	nbLabel, err := gtk.LabelNew("Tor Network Setup")
 
 	if err != nil {
 		log.Fatal("Unable to create notebook label:", err)
