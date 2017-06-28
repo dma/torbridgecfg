@@ -409,6 +409,9 @@ func main() {
 			if !found {
 				promptError("No bridges supplied by user")
 				return
+			} else {
+				fmt.Println("Enabling UseBridges")
+				emitConfig(c, "UseBridges", "1")
 			}
 
 		}
